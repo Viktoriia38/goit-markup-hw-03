@@ -20,168 +20,185 @@
     <!-- Верхня лінія -->
     <header class="page-header">
       <!-- Меню nav -->
-      <div class="container">
-        <nav>
-          <a href="./index.html" class="logo studio"
+      <div class="container border">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo"
             ><span class="logo-web">Web</span>Studio</a
           >
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="#" class="link">Контакти</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="#" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contact list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="contact"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a href="tel:380961111111" class="contact">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <div class="container">
-        <!-- Шапка -->
-        <section class="hero">
-          <div>
-            <h1 class="hero-title">
-              Ефективні рішення для <br />
-              вашого бізнесу
-            </h1>
-            <button type="button" class="button-primary">
-              Замовити послугу
-            </button>
-          </div>
-        </section>
-        <!-- Особливості -->
-        <section class="section">
-          <div>
-            <h2 class="visually-hidden section-title">Наші переваги</h2>
-            <ul class="feature-list">
-              <li>
-                <div>
-                  <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                  <p class="description">
-                    Ідейні міркування, і навіть початок повсякденної роботи з
-                    формування позиції.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                  <p class="description">
-                    Завдання організації, особливо рамки і місце навчання кадрів
-                    тягне у себе.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3 class="title">ПЛАНУВАННЯ</h3>
-                  <p class="description">
-                    Так само консультація з широким активом значною мірою
-                    зумовлює.
-                  </p>
-                </div>
-              </li>
-              <li>
-                <div>
-                  <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                  <p class="description">
-                    Значимість цих проблем настільки очевидна, що реалізація
-                    планових завдань.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <!-- Чим ми займаємося -->
-        <section class="section">
+      <!-- Шапка -->
+      <section class="hero">
+        <div class="container hero">
+          <h1 class="hero-title">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
+          <button type="button" class="button-primary">Замовити послугу</button>
+        </div>
+      </section>
+      <!-- Особливості -->
+      <section class="section indent unique">
+        <div class="container">
+          <h2 class="visually-hidden section-title">Наші переваги</h2>
+          <ul class="feature-list list">
+            <li class="item">
+              <div>
+                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="description">
+                  Ідейні міркування, і навіть початок повсякденної роботи з
+                  формування позиції.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <div>
+                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="description">
+                  Завдання організації, особливо рамки і місце навчання кадрів
+                  тягне у себе.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <div>
+                <h3 class="title">ПЛАНУВАННЯ</h3>
+                <p class="description">
+                  Так само консультація з широким активом значною мірою
+                  зумовлює.
+                </p>
+              </div>
+            </li>
+            <li class="item">
+              <div>
+                <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="description">
+                  Значимість цих проблем настільки очевидна, що реалізація
+                  планових завдань.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Чим ми займаємося -->
+      <section class="section indent">
+        <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="list">
-            <li>
+          <ul class="list work">
+            <li class="item">
               <img
+                class="view"
                 src="./images/img-1.jpg"
                 alt="Людина працює за комп'ютером"
                 width="370"
               />
             </li>
-            <li>
+            <li class="item">
               <img
+                class="view"
                 src="./images/img-2(1).jpg"
                 alt="Людина звіряє інтерфейс у телефоні та варінти інтерфейсу на комп'ютері"
                 width="370"
               />
             </li>
-            <li>
+            <li class="item">
               <img
+                class="view"
                 src="./images/img-3(1).jpg"
                 alt="Людина дивиться кольорову гамму"
                 width="370"
               />
             </li>
           </ul>
-        </section>
-        <!-- Наша команда -->
-        <section class="section">
-          <div class="team">
-            <h2 class="section-title">Наша команда</h2>
-            <ul class="list">
-              <li>
-                <img
-                  src="./images/img1.jpg"
-                  alt="Чоловік в окулярах сміється"
-                  width="270"
-                />
+        </div>
+      </section>
+      <!-- Наша команда -->
+      <section class="section team indent">
+        <div class="container">
+          <h2 class="section-title workers">Наша команда</h2>
+          <ul class="list team">
+            <li class="item">
+              <img
+                class="view"
+                src="./images/img1.jpg"
+                alt="Чоловік в окулярах сміється"
+                width="270"
+              />
+              <div class="team-unit">
                 <h3 class="name">Ігор Дем'яненко</h3>
-                <p class="position">Product Designer</p>
-              </li>
-              <li>
-                <img
-                  src="./images/img2.jpg"
-                  alt="Білокура жінка посміхається"
-                  width="270"
-                />
+                <p class="position" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="view"
+                src="./images/img2.jpg"
+                alt="Білокура жінка посміхається"
+                width="270"
+              />
+              <div class="team-unit">
                 <h3 class="name">Ольга Рєпіна</h3>
-                <p class="position">Frontend Developer</p>
-              </li>
-              <li>
-                <img
-                  src="./images/img3.jpg"
-                  alt="Чубатий чоловік посміхається та дивиться у бік"
-                  width="270"
-                />
+                <p class="position" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="view"
+                src="./images/img3.jpg"
+                alt="Чубатий чоловік посміхається та дивиться у бік"
+                width="270"
+              />
+              <div class="team-unit">
                 <h3 class="name">Микола Тарасов</h3>
-                <p class="position">Marketing</p>
-              </li>
-              <li>
-                <img
-                  src="./images/img4.jpg"
-                  alt="Бородатий чоловік в окулярах посміхається"
-                  width="270"
-                />
+                <p class="position" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="item">
+              <img
+                class="view"
+                src="./images/img4.jpg"
+                alt="Бородатий чоловік в окулярах посміхається"
+                width="270"
+              />
+              <div class="team-unit">
                 <h3 class="name">Михайло Єрмаков</h3>
-                <p class="position">UI Designer</p>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+                <p class="position" lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <!-- Підвал -->
-    <footer>
-      <div class="section-bottom">
+    <footer class="bottom">
+      <div class="section-bottom container">
         <a href="./index.html" class="logo-bottom"
           ><span class="logo-web">Web</span>Studio</a
         >
         <address>
-          <ul class="list">
+          <ul class="comunication-list list">
             <li>
               <a
                 href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
