@@ -27,16 +27,21 @@ padding-bottom: 94px;
 
 }
 
+ .container {
+     width: 1200px;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-left: auto;
+     margin-right: auto;
+     align-items: center;
+ }
+
 .main-block {
     display: flex;
     align-items: center;
 }
 
-
-
-
 .logo {
-    display: inline-block;
     color: #000000;
     text-decoration: none;
     font-family: Raleway, cursive;
@@ -63,7 +68,7 @@ padding-bottom: 94px;
 
  /*  Site nav */
 
-.site-navb{
+.site-nav {
     padding-left: 0;
 }
 
@@ -171,13 +176,6 @@ padding-bottom: 94px;
     margin-bottom: 50px;
  }
 
- .container {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
- }
 
 
 
@@ -368,7 +366,7 @@ margin-bottom: 20px;
     font-style: normal;
 }
 
-.list li:not(:last-child) {
+.footer-address li:not(:last-child) {
 margin-bottom: 9px;
 }
 
